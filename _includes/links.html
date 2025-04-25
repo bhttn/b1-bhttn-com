@@ -11,7 +11,7 @@
   <a href="https://{{ network[1] }}" title="Gallery">
     <span class="fa-stack fa-lg" aria-hidden="true">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      <i class="fab fa-panorama fa-stack-1x fa-inverse"></i>
     </span>
     <span class="sr-only">Gallery</span>
     Gallery
@@ -24,7 +24,7 @@
   <a href="https://app.thestorygraph.com/profile/{{ network[1] }}" title="StoryGraph">
      <span class="fa-stack fa-lg" aria-hidden="true">
        <i class="fas fa-circle fa-stack-2x"></i>
-       <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+       <i class="fab fa-books fa-stack-1x fa-inverse"></i>
      </span>
      <span class="sr-only">StoryGraph</span>
      Library
@@ -32,12 +32,25 @@
 </li>
 {%- endif -%}
 
+{%- if network[0] == "letterboxd" -%}
+  <li class="list-inline-item">
+    <a href="https://letterboxd.com/{{ network[1] }}" title="Letterboxd">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-letterboxd fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Letterboxd</span>
+      Movies
+   </a>
+  </li>
+  {%- endif -%}
+
   {%- if network[0] == "boardgames" -%}
   <li class="list-inline-item">
     <a href="https://boardgamegeek.com/collection/user/{{ network[1] }}" title="BGG">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+        <i class="fab fa-chess-pawn fa-stack-1x fa-inverse"></i>
       </span>
       <span class="sr-only">BGG</span>
       Boardgames
