@@ -21,10 +21,10 @@ author: Ben Hutton
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -61,6 +61,7 @@ social-network-links:
   gallery: photos.bhttn.com
   library: jollybaboon
   boardgames: bhttn
+  letterboxd: bhttn
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
